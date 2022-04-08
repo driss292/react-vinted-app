@@ -92,7 +92,7 @@ const Items = ({ search, sort }) => {
           onClick={fastPageUp}
           className={page > maxPage - 5 ? "page-btn-off" : "page-btn"}
         >
-          <FontAwesomeIcon icon="angles-right" />{" "}
+          <FontAwesomeIcon icon="angles-right" />
         </button>
       </div>
       <div className="items-container">
