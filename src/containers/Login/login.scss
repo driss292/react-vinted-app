@@ -1,0 +1,66 @@
+.login-container {
+  max-width: 1280px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 50px;
+      margin: 20px 0;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 300px;
+      .input-text {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid #fcced3;
+        font-size: 17px;
+
+        ::placeholder {
+          opacity: 0.5;
+        }
+      }
+
+      /* Form input (input-text), même réglages que signup.css */
+
+      /* placeholder, réglages dans signup.css */
+
+      .login-form-btn {
+        width: 100%;
+        margin-top: 30px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #09adb6;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 0;
+        font-size: 16px;
+        transition: 0.3s;
+      }
+
+      .login-form-btn:hover {
+        background-color: #09adb6a4;
+        color: #fff;
+      }
+    }
+    .to-signup-text {
+      margin-top: 20px;
+      color: #09adb6;
+    }
+  }
+}
