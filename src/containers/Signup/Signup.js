@@ -23,7 +23,7 @@ const Signup = () => {
       };
 
       const response = await axios.post(
-        "https://lereacteur-vinted-api.herokuapp.com/user/signup",
+        "https://vinted-backend-14022022.herokuapp.com/user/signup",
         signupInfos
       );
 

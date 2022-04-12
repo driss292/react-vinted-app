@@ -21,7 +21,7 @@ const Login = ({ token, setToken }) => {
       };
 
       const response = await axios.post(
-        "https://lereacteur-vinted-api.herokuapp.com/user/login",
+        "https://vinted-backend-14022022.herokuapp.com/user/login",
         data
       );
 
