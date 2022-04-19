@@ -26,7 +26,15 @@ header {
     flex-direction: column;
     justify-content: space-between;
   }
-
+  @media screen and (max-width: 650px) {
+    .header-container {
+      max-width: 90%;
+    }
+    .header-search-container {
+      width: 90%;
+      margin: 0 10px;
+    }
+  }
   .header-searchbar-icon {
     position: absolute;
     top: 9px;

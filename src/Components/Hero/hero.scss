@@ -27,6 +27,11 @@
   width: 400px;
   padding: 0 25px;
 }
+@media screen and (max-width: 560px) {
+  .hero-container div {
+    display: none;
+  }
+}
 
 .hero-container p {
   font-size: 30px;
